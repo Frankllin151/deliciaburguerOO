@@ -1,0 +1,2158 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+/*editbebid*/
+#descrinone{
+  display: none;
+}
+/*area body */
+body { overflow-x: hidden;
+  background-color: rgb(255, 255, 255);
+  }
+  #admin, #body_addpizza{
+    margin-top: 60px;
+  }
+  
+/******/
+.heart {
+  background-color:rgb(245, 184, 105);
+  display: flex;
+padding-bottom:10px ;
+padding-top: 10px;
+position: fixed;
+top:0px ;
+width: 100%;
+
+}
+.headerdl{
+  background-color:rgb(245, 184, 105);
+}
+#hrline{
+  padding: 0px;
+
+}
+.title h1{
+  font-size: 40px;
+  margin-left: 30px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  color: rgb(173, 79, 79) ;
+}
+.hometitle{
+  font-size: 20px;
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+font-weight: 600;
+  color: rgb(173, 79, 79) ;
+}
+.line{
+  background-color: rgb(173, 79, 79) ;
+ font-size: .2rem;
+
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  margin-top: .2rem;
+  margin-bottom:.2rem ;
+}
+.parthlink {
+  display: flex;
+  position: relative;
+  top: 0;
+  left: 550px;
+  right: 10px;
+  margin-top: .2rem;
+  margin-bottom:.2rem ;
+ 
+}
+.partheouter{
+  margin-left: 10px;
+  margin-right: 10;
+ 
+color: rgb(173, 79, 79) ;
+  text-decoration: none;
+  font-size: 18px;
+}
+/*home.php*/
+.menu_dl{
+  background-color: rgb(245, 184, 105);
+  padding-top: -18px;
+  width: 200px;
+  height: 100%;
+  /*margin-top diminuir =aumenta*/
+  margin-top: 59px;
+  position: fixed;
+  display: none;
+top: -14px;
+bottom: -100px;
+display: none;
+animation-name: menudl;
+animation-duration: 2s;
+}
+@keyframes menudl{
+ from{
+  width: 0px;
+ }
+ to{
+  width: 200px;
+ }
+}
+.myStyle{
+  background-color: rgb(245, 184, 105);
+  padding-top: -18px;
+  width: 200px;
+  height: 100%;
+  /*margin-top diminuir =aumenta*/
+  margin-top: 59px;
+  position: fixed;
+  display: flex;
+top: -14px;
+bottom: -100px;
+
+}
+.menumain{
+  margin-left: 20px;
+  width: 20px;
+ 
+ 
+}
+.myStyle:hover{
+  
+}
+.linkmenu{
+  margin-left: 20px;
+  margin-top: 20px;
+  display: flex;
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(173, 79, 79) ;
+  cursor: pointer;
+}
+.linkmenu:hover{
+  cursor: pointer;
+  color: rgb(196, 53, 53);
+  text-decoration: underline;
+  transition: 1s;
+}
+#nomemenu{
+  position: fixed;
+}
+.ruleinfomation{
+  margin-top: 150px;
+  margin-left: 480px;
+}
+.titlehome{
+  margin-top: 20px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 35px;
+  color: rgb(173, 79, 79) ;
+}
+.rualote{
+  margin-top: 20px;
+  font-size: 23px;
+  font-style: oblique;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+}
+.sola{
+  margin-top: 30px;
+margin-left: 40px;
+color: #fff;
+background-color: rgb(173, 79, 79) ;
+height: 50px;
+width: 250px;
+border-radius: 5px;
+}
+
+.sola:hover{
+  background-color: rgb(196, 53, 53) ;
+  cursor: pointer;
+  
+}
+.solicitaçaoCotaçao  {
+  display: flex;
+margin-top: 10px;
+justify-content: center;
+
+
+}
+.solicitaçaoCotaçao  p{
+display: flex;
+margin-top: 15px;
+}
+/*area sendemail*/
+.positionemailsend{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  display: none;
+}
+.SendEmail{
+  height: 400px;
+  width: 659px;
+  background-color: rgb(255, 255, 255);
+ position:absolute;
+  position: fixed;
+  top: 130px;
+  left: 390px;
+  bottom: 300px;
+right: 10px;
+overflow-y: scroll ;
+color: #000;
+}
+.SendEmail hr{
+  margin-top: 20px;
+}
+.cabelhasendemail{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.closed{
+  border:1px;
+  width: 30px;
+  height: 20px;
+  margin-left: 350px;
+  cursor: pointer;
+}
+.SendEmail label p{
+  margin-left: 10px;
+  margin-top: 10px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 300;
+  
+}
+.SendEmail label input{
+  margin-left: 5px;
+}
+#solici{
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 20px;
+
+
+}
+#help_p{
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 13px;
+  color: rgb(141, 141, 141);
+}
+.evite{
+  margin-left: 10px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ font-family: 'Playfair Display', serif;
+ font-style: italic;
+ font-weight: 300;
+ color: rgb(141, 141, 141);
+ font-size: 13px;
+}
+/*form*/
+#enviarsend{
+  margin-left: 350px;
+  margin-top: 10px;
+  background-color: rgb(173, 79, 79);
+  border: 0px;
+  top: 0px;
+  left: 200px;
+  bottom: 0px;
+ right: 0px;
+
+  font-size: 20px;
+  box-shadow: 1px 1px 1.4px 1.4px #5a5a5a;
+  cursor: pointer;
+  width: 65px;
+}
+.input_infomation, #txtarea{
+  margin-top: 10px;
+  width: 400px ;
+ border-radius: 4px;
+ border: 0px;
+ border-bottom:2px solid rgb(141, 141, 141) ;
+}
+.input_infomation:hover, #txtarea:hover{
+  border: 0px;
+  border-bottom:2px solid rgb(173, 79, 79) ;
+}
+.input_infomation:focus, #txtarea:focus{
+  
+  border-bottom: 1.3px solid rgb(173, 79, 79)  ;
+  outline: 0;
+  padding-top: 10px;
+}
+
+#txtarea{
+  margin-top: 10px;
+resize: none;
+  height: 60px;
+}
+
+.galephoto{
+  margin-top: 200px;
+  
+  
+  
+
+}
+.titlegalere{
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 500;
+  display: flex; 
+  justify-content: center;
+font-size: 30px;
+color:  rgb(173, 79, 79);
+}
+.photopattern{
+ width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.areaphoto0{
+  width: 330px;
+  height: 280px;
+ margin: 10px;
+}
+.areaphoto0 img{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.galeria-area{
+  margin-top: 100px;
+ 
+ 
+}
+.galeria-area h2{
+  display: flex;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(173, 79, 79);
+}
+#galeria{
+  display: flex;
+  justify-content: center;
+}
+.galeriaphoto{
+  width: 100%;
+  height: 150px;
+}
+
+.galeriaphoto img{
+  width: 100%;
+ 
+}
+.divareacontato{
+  margin-top: 600px;
+
+  justify-content: center;
+ display: flex; 
+}
+.contatox{
+  display: flex;
+  flex: 1;
+  
+  height: 300px;
+  width: 100%;
+}
+.contatoareamain{
+
+  width: 100%;
+  height: 100%;
+}
+.title-contato{
+  margin-left: 20px;
+}
+.adressAndtell{
+  margin-left: 20px;
+  border:1px solid rgb(173, 79, 79);
+ background-color: rgb(173, 79, 79) ;
+  height: 60px;
+  width: 180px;
+  
+  margin-top: 50px;
+  border-radius: 5px;
+
+}
+
+#atag{
+
+  color: rgb(255, 255, 255);
+  margin-left: 0;
+margin-top: 10px;
+display: flex;
+font-size: 15PX;
+justify-content: center;
+text-decoration: none;
+width: 100%;
+height: 100%;
+
+}
+.adressAndtell:hover{
+    background-color:  rgb(196, 53, 53);
+    cursor: pointer; 
+  
+}
+.adress_tel, .adress{
+ margin-top: 20px;
+ margin-left: 20px;
+ font-size: 20px;
+}
+/*
+footer
+*/
+footer p{
+
+  margin-top: 10px;
+color: #ccc;
+font-size: 12px;
+  width: 100%;
+}
+/*cardapio.php*/
+.header_cardapio {
+
+  width: 100%;
+  height: 400px;
+}
+.header_cardapio h1{
+  display: flex;
+  justify-content: center;
+  color: rgb(173, 79, 79);
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+font-style: italic;
+font-size: 86px;
+}
+/* area cardapio*/
+
+.namepizza, .namesand{
+  font-size: 30px;
+}
+
+.photo {
+  
+  width: 100%;
+  height: 150px;
+}
+.photo img{
+background-size: cover;
+width: 100%;
+height: 100%;  
+}
+.photo img:hover{
+  background-size: cover;
+width: 90%;
+height: 90%;  
+transition: 0.8s;
+cursor: pointer;
+}
+.descriçaopizza,.descriçaosnd {
+  font-size: 20px;
+}
+.preço, .preçosnd{
+  font-size: 20px;
+}
+
+.titledl p{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  font-size: 23;
+  color: rgb(173, 79, 79);
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  text-transform: uppercase;  
+}
+.titledl h1{
+ text-transform: uppercase;
+  font-size: 40px; 
+  display: flex;
+  justify-content: center;
+}
+.produto-area{
+  margin-top: 100px;
+}
+.produto-area h1{
+  color: rgb(173, 79, 79);
+  font-size: 40px;
+  margin-left: 30%;
+}
+.produtoitem{
+ 
+  display: flex;
+  flex-wrap: wrap;
+}
+/*.pizza*/
+.pizzaItem , .sanduichesItem{
+  margin: 10px;
+  width: 400px;
+  height: 290px;
+  
+  
+}
+/***
+Admin.php
+
+*/
+
+.Area_crud{
+  
+  margin: 10px;
+}
+
+/***************************************
+**********************
+***************************************
+**************************
+ANDROID MOBILE
+
+*********************************
+*/
+
+@media (min-width:100px)and (max-width:500px){
+  * {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+  }
+  /*editbebid*/
+  #descrinone{
+    display: none;
+  }
+  /*area body */
+  body { overflow-x: hidden;
+    background-color: rgb(255, 255, 255);
+    }
+    #admin, #body_addpizza{
+      margin-top: 60px;
+    }
+    
+  /******/
+  .heart {
+    background-color:rgb(245, 184, 105);
+    display: flex;
+  padding-bottom:10px ;
+  padding-top: 10px;
+  position: fixed;
+  top:0px ;
+  width: 100%;
+  
+  }
+  .headerdl{
+    background-color:rgb(245, 184, 105);
+  }
+  #hrline{
+    padding: 0px;
+  
+  }
+  .title h1{
+    font-size: 40px;
+    margin-left: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    color: rgb(173, 79, 79) ;
+  }
+  .hometitle{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+  font-weight: 600;
+    color: rgb(173, 79, 79) ;
+  }
+  .line{
+    background-color: rgb(173, 79, 79) ;
+   font-size: .2rem;
+  
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    margin-top: .2rem;
+    margin-bottom:.2rem ;
+  }
+  .parthlink {
+    display: none;
+    position: relative;
+    top: 0;
+    left: 550px;
+    right: 10px;
+    margin-top: .2rem;
+    margin-bottom:.2rem ;
+   
+  }
+  .partheouter{
+    margin-left: 10px;
+    margin-right: 10;
+   
+  color: rgb(173, 79, 79) ;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  /*home.php*/
+  .menu_dl{
+    background-color: rgb(245, 184, 105);
+    padding-top: -18px;
+    width: 200px;
+    height: 100%;
+    /*margin-top diminuir =aumenta*/
+    margin-top: 59px;
+    position: fixed;
+    display: none;
+  top: -14px;
+  bottom: -100px;
+  display: none;
+  animation-name: menudl;
+  animation-duration: 2s;
+  }
+  @keyframes menudl{
+   from{
+    width: 0px;
+   }
+   to{
+    width: 200px;
+   }
+  }
+  .myStyle{
+    background-color: rgb(245, 184, 105);
+    padding-top: -18px;
+    width: 200px;
+    height: 100%;
+    /*margin-top diminuir =aumenta*/
+    margin-top: 59px;
+    position: fixed;
+    display: flex;
+  top: -14px;
+  bottom: -100px;
+  
+  }
+  .menumain{
+    margin-left: 20px;
+    width: 20px;
+   
+   
+  }
+  .myStyle:hover{
+    
+  }
+  .linkmenu{
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(173, 79, 79) ;
+    cursor: pointer;
+  }
+  .linkmenu:hover{
+    cursor: pointer;
+    color: rgb(196, 53, 53);
+    text-decoration: underline;
+    transition: 1s;
+  }
+  #nomemenu{
+    position: fixed;
+  }
+  .ruleinfomation{
+    margin-top: 150px;
+    margin-left: 40px;
+ justify-content: center;
+ display: flex;
+  }
+  .titlehome{
+    margin-top: 20px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 35px;
+    color: rgb(173, 79, 79) ;
+  }
+  .rualote{
+    margin-top: 20px;
+    font-size: 23px;
+    font-style: oblique;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+  }
+  .sola{
+    margin-top: 30px;
+  margin-left: 0px;
+  color: #fff;
+  background-color: rgb(173, 79, 79) ;
+  height: 50px;
+  width: 250px;
+  border-radius: 5px;
+  }
+  
+  .sola:hover{
+    background-color: rgb(196, 53, 53) ;
+    cursor: pointer;
+    
+  }
+  .solicitaçaoCotaçao  {
+    display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  
+  
+  }
+  .solicitaçaoCotaçao  p{
+  display: flex;
+  margin-top: 15px;
+  }
+  /*area sendemail*/
+  .positionemailsend{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  
+    display: none;
+  }
+  .SendEmail{
+    height: 100%;
+    width: 100%;
+   
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    position: fixed;
+    top: 0px;
+    left: 1px;
+    bottom: 300px;
+    right: 10px;
+    overflow-y: scroll;
+    color: #000;
+  }
+  .SendEmail hr{
+    margin-top: 20px;
+  }
+  .cabelhasendemail{
+    display: inline-flex;
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  .closed{
+    border: 1px;
+    width: 30px;
+    height: 20px;
+    margin-left: 190px;
+    cursor: pointer;
+  }
+  .SendEmail label p{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 300;
+    
+  }
+  .SendEmail label input{
+    margin-left: 5px;
+  }
+  #solici{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+  
+  
+  }
+  #help_p{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 13px;
+    color: rgb(141, 141, 141);
+  }
+  .evite{
+    margin-left: 10px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   font-family: 'Playfair Display', serif;
+   font-style: italic;
+   font-weight: 300;
+   color: rgb(141, 141, 141);
+   font-size: 13px;
+  }
+  /*form*/
+  #enviarsend{
+    margin-left: 250px;
+    margin-top: 10px;
+    background-color: rgb(173, 79, 79);
+    border: 0px;
+    top: 0px;
+    left: 200px;
+    bottom: 0px;
+   right: 0px;
+  
+    font-size: 20px;
+    box-shadow: 1px 1px 1.4px 1.4px #5a5a5a;
+    cursor: pointer;
+    width: 65px;
+  }
+  .input_infomation, #txtarea{
+    margin-top: 10px;
+    width: 400px ;
+   border-radius: 4px;
+   border: 0px;
+   border-bottom:2px solid rgb(141, 141, 141) ;
+  }
+  .input_infomation:hover, #txtarea:hover{
+    border: 0px;
+    border-bottom:2px solid rgb(173, 79, 79) ;
+  }
+  .input_infomation:focus, #txtarea:focus{
+    
+    border-bottom: 1.3px solid rgb(173, 79, 79)  ;
+    outline: 0;
+    padding-top: 10px;
+  }
+  
+  #txtarea{
+    margin-top: 10px;
+  resize: none;
+    height: 60px;
+  }
+  
+  .galephoto{
+    margin-top: 200px;
+    
+    
+    
+  
+  }
+  .titlegalere{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 500;
+    display: flex; 
+    justify-content: center;
+  font-size: 30px;
+  color:  rgb(173, 79, 79);
+  }
+  .photopattern{
+   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+  .areaphoto0{
+    width: 330px;
+    height: 280px;
+   margin: 10px;
+  }
+  .areaphoto0 img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+  
+  .galeria-area{
+    margin-top: 100px;
+   
+   
+  }
+  .galeria-area h2{
+   
+   
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(173, 79, 79);
+  }
+  #galeria{
+    display: flex;
+    justify-content: center;
+  }
+  .galeriaphoto{
+    width: 100%;
+    height: 150px;
+  }
+  
+  .galeriaphoto img{
+    width: 100%;
+   
+  }
+  .divareacontato{
+    margin-top: 80px;
+    flex-direction: column;
+    display: flex;
+    margin-left: 55;
+  }
+  .contatox{
+    display: flex;
+    flex: 1;
+    
+    height: 300px;
+    width: 100%;
+  }
+  .contatoareamain{
+  
+    width: 100%;
+    height: 100%;
+  }
+  .title-contato{
+    margin-left: 20px;
+  }
+  .adressAndtell{
+    margin-left: 20px;
+    border:1px solid rgb(173, 79, 79);
+   background-color: rgb(173, 79, 79) ;
+    height: 60px;
+    width: 180px;
+    
+    margin-top: 50px;
+    border-radius: 5px;
+  
+  }
+  
+  #atag{
+  
+    color: rgb(255, 255, 255);
+    margin-left: 0;
+  margin-top: 10px;
+  display: flex;
+  font-size: 15PX;
+  justify-content: center;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  
+  }
+  .adressAndtell:hover{
+      background-color:  rgb(196, 53, 53);
+      cursor: pointer; 
+    
+  }
+  .adress_tel, .adress{
+   margin-top: 20px;
+   margin-left: 20px;
+   font-size: 20px;
+  }
+  /*
+  footer
+  */
+  footer{
+    margin-top: 20px;
+  }
+  footer p{
+  
+    margin-top: 10px;
+  color: #ccc;
+  font-size: 12px;
+    width: 100%;
+  }
+  /*cardapio.php*/
+  .header_cardapio {
+  
+    width: 100%;
+    height: 400px;
+  }
+  .header_cardapio h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(173, 79, 79);
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+  font-style: italic;
+  font-size: 76px;
+  }
+  /* area cardapio*/
+  .svgman{
+    margin-top: 47px;
+  }
+  .namepizza, .namesand{
+    font-size: 30px;
+  }
+  
+  .photo {
+    
+    width: 100%;
+    height: 150px;
+  }
+  .photo img{
+  background-size: cover;
+  width: 100%;
+  height: 100%;  
+  }
+  .photo img:hover{
+    background-size: cover;
+  width: 90%;
+  height: 90%;  
+  transition: 0.8s;
+  cursor: pointer;
+  }
+  .descriçaopizza,.descriçaosnd {
+    font-size: 20px;
+  }
+  .preço, .preçosnd{
+    font-size: 20px;
+  }
+  
+  .titledl p{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 23;
+    color: rgb(173, 79, 79);
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    text-transform: uppercase;  
+  }
+  .titledl h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-left: 90px;
+    margin-top: 10px;
+  }
+  .produto-area{
+    margin-top: 100px;
+  }
+  .produto-area h1{
+    color: rgb(173, 79, 79);
+    font-size: 40px;
+    margin-left: 30%;
+  }
+  .produtoitem{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /*.pizza*/
+  .pizzaItem , .sanduichesItem{
+    margin: 10px;
+    width: 400px;
+    height: 290px;
+    
+    
+  }
+  /***
+  Admin.php
+  
+  */
+  
+  .Area_crud{
+    
+    margin: 10px;
+  }
+
+}
+/********
+*****
+****
+** 480px e 720px*
+***
+***
+*/
+@media (min-width:500px)and (max-width:720px){
+  * {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+  }
+  /*editbebid*/
+  #descrinone{
+    display: none;
+  }
+  /*area body */
+  body { overflow-x: hidden;
+    background-color: rgb(255, 255, 255);
+    }
+    #admin, #body_addpizza{
+      margin-top: 60px;
+    }
+    
+  /******/
+  .heart {
+    background-color:rgb(245, 184, 105);
+    display: flex;
+  padding-bottom:10px ;
+  padding-top: 10px;
+  position: fixed;
+  top:0px ;
+  width: 100%;
+  
+  }
+  .headerdl{
+    background-color:rgb(245, 184, 105);
+  }
+  #hrline{
+    padding: 0px;
+  
+  }
+  .title h1{
+    font-size: 40px;
+    margin-left: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    color: rgb(173, 79, 79) ;
+  }
+  .hometitle{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+  font-weight: 600;
+    color: rgb(173, 79, 79) ;
+  }
+  .line{
+    background-color: rgb(173, 79, 79) ;
+   font-size: .2rem;
+  
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    margin-top: .2rem;
+    margin-bottom:.2rem ;
+  }
+  .parthlink {
+    display: none;
+    position: relative;
+    top: 0;
+    left: 550px;
+    right: 10px;
+    margin-top: .2rem;
+    margin-bottom:.2rem ;
+   
+  }
+  .partheouter{
+    margin-left: 10px;
+    margin-right: 10;
+   
+  color: rgb(173, 79, 79) ;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  /*home.php*/
+  .menu_dl{
+    background-color: rgb(245, 184, 105);
+    padding-top: -18px;
+    width: 200px;
+    height: 100%;
+    /*margin-top diminuir =aumenta*/
+    margin-top: 59px;
+    position: fixed;
+    display: none;
+  top: -14px;
+  bottom: -100px;
+  display: none;
+  animation-name: menudl;
+  animation-duration: 2s;
+  }
+  @keyframes menudl{
+   from{
+    width: 0px;
+   }
+   to{
+    width: 200px;
+   }
+  }
+  .myStyle{
+    background-color: rgb(245, 184, 105);
+    padding-top: -18px;
+    width: 200px;
+    height: 100%;
+    /*margin-top diminuir =aumenta*/
+    margin-top: 59px;
+    position: fixed;
+    display: flex;
+  top: -14px;
+  bottom: -100px;
+  
+  }
+  .menumain{
+    margin-left: 20px;
+    width: 20px;
+   
+   
+  }
+  .myStyle:hover{
+    
+  }
+  .linkmenu{
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(173, 79, 79) ;
+    cursor: pointer;
+  }
+  .linkmenu:hover{
+    cursor: pointer;
+    color: rgb(196, 53, 53);
+    text-decoration: underline;
+    transition: 1s;
+  }
+  #nomemenu{
+    position: fixed;
+  }
+  .ruleinfomation{
+    margin-top: 150px;
+    margin-left: 40px;
+  }
+  .titlehome{
+    margin-top: 20px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 35px;
+    color: rgb(173, 79, 79) ;
+  }
+  .rualote{
+    margin-top: 20px;
+    font-size: 23px;
+    font-style: oblique;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+  }
+  .sola{
+    margin-top: 30px;
+    margin-left: 45px;
+    color: #fff;
+    background-color: rgb(173, 79, 79);
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+  }
+  
+  .sola:hover{
+    background-color: rgb(196, 53, 53) ;
+    cursor: pointer;
+    
+  }
+  .solicitaçaoCotaçao  {
+    display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  
+  
+  }
+  .solicitaçaoCotaçao  p{
+  display: flex;
+  margin-top: 15px;
+  }
+  /*area sendemail*/
+  .positionemailsend{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  
+    display: none;
+  }
+  .SendEmail{
+    height: 100%;
+    width: 100%;
+   
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    position: fixed;
+    top: 0px;
+    left: 1px;
+    bottom: 300px;
+    right: 10px;
+    overflow-y: scroll;
+    color: #000;
+  }
+  .SendEmail hr{
+    margin-top: 20px;
+  }
+  .cabelhasendemail{
+    display: inline-flex;
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  .closed{
+    border: 1px;
+    width: 30px;
+    height: 20px;
+    margin-left: 269px;
+    cursor: pointer;
+  }
+  .SendEmail label p{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 300;
+    
+  }
+  .SendEmail label input{
+    margin-left: 5px;
+  }
+  #solici{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+  
+  
+  }
+  #help_p{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 13px;
+    color: rgb(141, 141, 141);
+  }
+  .evite{
+    margin-left: 10px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   font-family: 'Playfair Display', serif;
+   font-style: italic;
+   font-weight: 300;
+   color: rgb(141, 141, 141);
+   font-size: 13px;
+  }
+  /*form*/
+  #enviarsend{
+    margin-left: 250px;
+    margin-top: 10px;
+    background-color: rgb(173, 79, 79);
+    border: 0px;
+    top: 0px;
+    left: 200px;
+    bottom: 0px;
+   right: 0px;
+  
+    font-size: 20px;
+    box-shadow: 1px 1px 1.4px 1.4px #5a5a5a;
+    cursor: pointer;
+    width: 65px;
+  }
+  .input_infomation, #txtarea{
+    margin-top: 10px;
+    width: 400px ;
+   border-radius: 4px;
+   border: 0px;
+   border-bottom:2px solid rgb(141, 141, 141) ;
+  }
+  .input_infomation:hover, #txtarea:hover{
+    border: 0px;
+    border-bottom:2px solid rgb(173, 79, 79) ;
+  }
+  .input_infomation:focus, #txtarea:focus{
+    
+    border-bottom: 1.3px solid rgb(173, 79, 79)  ;
+    outline: 0;
+    padding-top: 10px;
+  }
+  
+  #txtarea{
+    margin-top: 10px;
+  resize: none;
+    height: 60px;
+  }
+  
+  .galephoto{
+    margin-top: 200px;
+    
+    
+    
+  
+  }
+  .titlegalere{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 500;
+    display: flex; 
+    justify-content: center;
+  font-size: 30px;
+  color:  rgb(173, 79, 79);
+  }
+  .photopattern{
+   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+  .areaphoto0{
+    width: 330px;
+    height: 280px;
+   margin: 10px;
+  }
+  .areaphoto0 img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+  
+  .galeria-area{
+    margin-top: 100px;
+   
+   
+  }
+  .galeria-area h2{
+   
+   
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(173, 79, 79);
+  }
+  #galeria{
+    display: flex;
+    justify-content: center;
+  }
+  .galeriaphoto{
+    width: 100%;
+    height: 150px;
+  }
+  
+  .galeriaphoto img{
+    width: 100%;
+   
+  }
+  .divareacontato{
+    margin-top: 200px;
+    flex-direction: column;
+    display: flex;
+    margin-left: 121px;
+  }
+  .contatox{
+    display: flex;
+    flex: 1;
+    
+    height: 300px;
+    width: 100%;
+  }
+  .contatoareamain{
+  
+    width: 100%;
+    height: 100%;
+  }
+  .title-contato{
+    margin-left: 20px;
+  }
+  .adressAndtell{
+    margin-left: 20px;
+    border:1px solid rgb(173, 79, 79);
+   background-color: rgb(173, 79, 79) ;
+    height: 60px;
+    width: 180px;
+    
+    margin-top: 50px;
+    border-radius: 5px;
+  
+  }
+  
+  #atag{
+  
+    color: rgb(255, 255, 255);
+    margin-left: 0;
+  margin-top: 10px;
+  display: flex;
+  font-size: 15PX;
+  justify-content: center;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  
+  }
+  .adressAndtell:hover{
+      background-color:  rgb(196, 53, 53);
+      cursor: pointer; 
+    
+  }
+  .adress_tel, .adress{
+   margin-top: 20px;
+   margin-left: 20px;
+   font-size: 20px;
+  }
+  /*
+  footer
+  */
+  footer{
+    margin-top: 20px;
+  }
+  footer p{
+  
+    margin-top: 10px;
+  color: #ccc;
+  font-size: 12px;
+    width: 100%;
+  }
+  /*cardapio.php*/
+  .header_cardapio {
+  
+    width: 100%;
+    height: 400px;
+  }
+  .header_cardapio h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(173, 79, 79);
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+  font-style: italic;
+  font-size: 76px;
+  }
+  /* area cardapio*/
+  
+  .namepizza, .namesand{
+    font-size: 30px;
+  }
+  .svgman{
+    margin-top: 47px;
+  }
+  .photo {
+    
+    width: 100%;
+    height: 150px;
+  }
+  .photo img{
+  background-size: cover;
+  width: 100%;
+  height: 100%;  
+  }
+  .photo img:hover{
+    background-size: cover;
+  width: 90%;
+  height: 90%;  
+  transition: 0.8s;
+  cursor: pointer;
+  }
+  .descriçaopizza,.descriçaosnd {
+    font-size: 20px;
+  }
+  .preço, .preçosnd{
+    font-size: 20px;
+  }
+  
+  .titledl p{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 23;
+    color: rgb(173, 79, 79);
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    text-transform: uppercase;  
+  }
+  .titledl h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-left: 90px;
+    margin-top: 10px;
+  }
+  .produto-area{
+    margin-top: 100px;
+  }
+  .produto-area h1{
+    color: rgb(173, 79, 79);
+    font-size: 40px;
+    margin-left: 30%;
+  }
+  .produtoitem{
+   justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /*.pizza*/
+  .pizzaItem , .sanduichesItem{
+    margin: 10px;
+    width: 400px;
+    height: 290px;
+    
+    
+  }
+  /***
+  Admin.php
+  
+  */
+  
+  .Area_crud{
+    
+    margin: 10px;
+  }
+
+}
+
+
+ /**************************************
+ *****************************************
+ ***********TAblet***************************
+ ************************************
+ */
+
+@media (min-width:760px)and (max-width:960px){
+  * {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+  }
+  /*editbebid*/
+  #descrinone{
+    display: none;
+  }
+  /*area body */
+  body { overflow-x: hidden;
+    background-color: rgb(255, 255, 255);
+    }
+    #admin, #body_addpizza{
+      margin-top: 60px;
+    }
+    
+  /******/
+  .heart {
+    background-color:rgb(245, 184, 105);
+    display: flex;
+  padding-bottom:10px ;
+  padding-top: 10px;
+  position: fixed;
+  top:0px ;
+  width: 100%;
+  
+  }
+  .headerdl{
+    background-color:rgb(245, 184, 105);
+  }
+  #hrline{
+    padding: 0px;
+  
+  }
+  .title h1{
+    font-size: 40px;
+    margin-left: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    color: rgb(173, 79, 79) ;
+  }
+  .hometitle{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+  font-weight: 600;
+    color: rgb(173, 79, 79) ;
+  }
+  .line{
+    background-color: rgb(173, 79, 79) ;
+   font-size: .2rem;
+  
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    margin-top: .2rem;
+    margin-bottom:.2rem ;
+  }
+  .parthlink {
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 235px;
+    right: 10px;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+   
+  }
+  .partheouter{
+    margin-left: 10px;
+    margin-right: 10;
+   
+  color: rgb(173, 79, 79) ;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  /*home.php*/
+  .menu_dl{
+    background-color: rgb(245, 184, 105);
+    padding-top: -18px;
+    width: 200px;
+    height: 100%;
+    /*margin-top diminuir =aumenta*/
+    margin-top: 59px;
+    position: fixed;
+    display: none;
+  top: -14px;
+  bottom: -100px;
+  display: none;
+  animation-name: menudl;
+  animation-duration: 2s;
+  }
+  @keyframes menudl{
+   from{
+    width: 0px;
+   }
+   to{
+    width: 200px;
+   }
+  }
+  .myStyle{
+    background-color: rgb(245, 184, 105);
+    padding-top: -18px;
+    width: 200px;
+    height: 100%;
+    /*margin-top diminuir =aumenta*/
+    margin-top: 59px;
+    position: fixed;
+    display: flex;
+  top: -14px;
+  bottom: -100px;
+  
+  }
+  .menumain{
+    margin-left: 20px;
+    width: 20px;
+   
+   
+  }
+  .myStyle:hover{
+    
+  }
+  .linkmenu{
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(173, 79, 79) ;
+    cursor: pointer;
+  }
+  .linkmenu:hover{
+    cursor: pointer;
+    color: rgb(196, 53, 53);
+    text-decoration: underline;
+    transition: 1s;
+  }
+  #nomemenu{
+    position: fixed;
+  }
+  .ruleinfomation{
+    margin-top: 150px;
+    margin-left: 75px;
+    display: flex;
+    justify-content: center;
+  }
+  .titlehome{
+    margin-top: 20px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 35px;
+    color: rgb(173, 79, 79) ;
+  }
+  .rualote{
+    margin-top: 20px;
+    font-size: 23px;
+    font-style: oblique;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+  }
+  .sola{
+    margin-top: 30px;
+    margin-left: 62px;
+    color: #fff;
+    background-color: rgb(173, 79, 79);
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+  }
+  
+  .sola:hover{
+    background-color: rgb(196, 53, 53) ;
+    cursor: pointer;
+    
+  }
+  .solicitaçaoCotaçao  {
+    display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  
+  
+  }
+  .solicitaçaoCotaçao  p{
+  display: flex;
+  margin-top: 15px;
+  }
+  /*area sendemail*/
+  .dfcenter{
+    display: flex;
+    justify-content: center;
+  }
+  .positionemailsend{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  
+    display: none;
+  }
+  .SendEmail{
+    height: 598px;
+    width: 659px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    position: fixed;
+    top: 50px;
+    left: 55px;
+    bottom: 300px;
+    right: 10px;
+    overflow-y: scroll;
+    color: #000;
+  }
+  .SendEmail hr{
+    margin-top: 20px;
+  }
+  .cabelhasendemail{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .closed{
+    border:1px;
+    width: 30px;
+    height: 20px;
+    margin-left: 350px;
+    cursor: pointer;
+  }
+  .SendEmail label p{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 300;
+    
+  }
+  .SendEmail label input{
+    margin-left: 5px;
+  }
+  #solici{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+  
+  
+  }
+  #help_p{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 13px;
+    color: rgb(141, 141, 141);
+  }
+  .evite{
+    margin-left: 10px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   font-family: 'Playfair Display', serif;
+   font-style: italic;
+   font-weight: 300;
+   color: rgb(141, 141, 141);
+   font-size: 13px;
+  }
+  /*form*/
+  #enviarsend{
+    margin-left: 350px;
+    margin-top: 10px;
+    background-color: rgb(173, 79, 79);
+    border: 0px;
+    top: 0px;
+    left: 200px;
+    bottom: 0px;
+   right: 0px;
+  
+    font-size: 20px;
+    box-shadow: 1px 1px 1.4px 1.4px #5a5a5a;
+    cursor: pointer;
+    width: 65px;
+  }
+  .input_infomation, #txtarea{
+    margin-top: 10px;
+    width: 400px ;
+   border-radius: 4px;
+   border: 0px;
+   border-bottom:2px solid rgb(141, 141, 141) ;
+  }
+  .input_infomation:hover, #txtarea:hover{
+    border: 0px;
+    border-bottom:2px solid rgb(173, 79, 79) ;
+  }
+  .input_infomation:focus, #txtarea:focus{
+    
+    border-bottom: 1.3px solid rgb(173, 79, 79)  ;
+    outline: 0;
+    padding-top: 10px;
+  }
+  
+  #txtarea{
+    margin-top: 10px;
+  resize: none;
+    height: 60px;
+  }
+  
+  .galephoto{
+    margin-top: 200px;
+    
+    
+    
+  
+  }
+  .titlegalere{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 500;
+    display: flex; 
+    justify-content: center;
+  font-size: 30px;
+  color:  rgb(173, 79, 79);
+  }
+  .photopattern{
+   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+  .areaphoto0{
+    width: 330px;
+    height: 280px;
+   margin: 10px;
+  }
+  .areaphoto0 img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+  
+  .galeria-area{
+    margin-top: 100px;
+   
+   
+  }
+  .galeria-area h2{
+    display: flex;
+    justify-content: center;
+  }
+  #galeria{
+    display: flex;
+    justify-content: center;
+  }
+  .galeriaphoto{
+    width: 100%;
+    height: 150px;
+  }
+  
+  .galeriaphoto img{
+    width: 100%;
+   
+  }
+  .divareacontato{
+    margin-top: 230px;
+    justify-content: center;
+    display: flex;
+  
+  }
+  .contatox{
+    display: flex;
+    flex: 1;
+    
+    height: 300px;
+    width: 100%;
+  }
+  .contatoareamain{
+  
+    width: 100%;
+    height: 100%;
+  }
+  .title-contato{
+    margin-left: 20px;
+  }
+  .adressAndtell{
+    margin-left: 20px;
+    border:1px solid rgb(173, 79, 79);
+   background-color: rgb(173, 79, 79) ;
+    height: 60px;
+    width: 180px;
+    
+    margin-top: 50px;
+    border-radius: 5px;
+  
+  }
+  
+  #atag{
+  
+    color: rgb(255, 255, 255);
+    margin-left: 0;
+  margin-top: 10px;
+  display: flex;
+  font-size: 15PX;
+  justify-content: center;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  
+  }
+  .adressAndtell:hover{
+      background-color:  rgb(196, 53, 53);
+      cursor: pointer; 
+    
+  }
+  .adress_tel, .adress{
+   margin-top: 20px;
+   margin-left: 20px;
+   font-size: 20px;
+  }
+  /*
+  footer
+  */
+  footer p{
+  
+    margin-top: 10px;
+  color: #ccc;
+  font-size: 12px;
+    width: 100%;
+  }
+  /*cardapio.php*/
+  .header_cardapio {
+  
+    width: 100%;
+    height: 400px;
+  }
+  .header_cardapio h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(173, 79, 79);
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+  font-style: italic;
+  font-size: 86px;
+  }
+  /* area cardapio*/
+  .svgman{
+    margin-top: 47px; 
+  }
+ 
+  .namepizza, .namesand{
+    font-size: 30px;
+  }
+  
+  .photo {
+    
+    width: 100%;
+    height: 150px;
+  }
+  .photo img{
+  background-size: cover;
+  width: 100%;
+  height: 100%;  
+  }
+  .photo img:hover{
+    background-size: cover;
+  width: 90%;
+  height: 90%;  
+  transition: 0.8s;
+  cursor: pointer;
+  }
+  .descriçaopizza,.descriçaosnd {
+    font-size: 20px;
+  }
+  .preço, .preçosnd{
+    font-size: 20px;
+  }
+  
+  .titledl p{
+    margin-top: -12px;
+    display: flex;
+    justify-content: center;
+    font-size: 23;
+    color: rgb(173, 79, 79);
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .titledl h1{
+   text-transform: uppercase;
+    font-size: 40px; 
+    display: flex;
+    justify-content: center;
+  }
+  .produto-area{
+    margin-top: 100px;
+  }
+  .produto-area h1{
+    color: rgb(173, 79, 79);
+    font-size: 40px;
+    margin-left: 30%;
+  }
+  .produtoitem{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /*.pizza*/
+  .pizzaItem , .sanduichesItem{
+    margin: 10px;
+    width: 400px;
+    height: 290px;
+    
+    
+  }
+  /***
+  Admin.php
+  
+  */
+  
+  .Area_crud{
+    
+    margin: 10px;
+  }
+}
+
+
+/*********************/
+@media (min-width: 670px){
+  .ruleinfomation{
+  margin-top: 77px;
+  margin-left: 0px;
+  display: flex;
+  justify-content: center;
+}
+.closed{
+  border: 1px;
+    width: 30px;
+    height: 20px;
+    margin-left: 434px;
+    cursor: pointer;
+}
+}
+  
+@media (min-width: 800px) and (max-width:960px){
+  .divareacontato{
+    margin-top: 304px;
+    justify-content: center;
+    display: flex;
+    
+  }
+  .parthlink {
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 359px;
+    right: 10px;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+  }
+ 
+}
+
